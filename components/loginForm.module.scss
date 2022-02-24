@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  width: 30rem;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.inputBox {
+  display: grid;
+  gap: 1.5rem;
+  padding: 0 1rem;
+  //check if the prop is correct
+  justify-items: center;
+}
+
+.input {
+  width: 80%;
+  height: 3rem;
+}
+
+.heading {
+  text-align: center;
+}
+
+.noAccount {
+  text-align: center;
+}
+
+//move later
+.submit {
+  width: 30%;
+  height: 2.5rem;
+}
